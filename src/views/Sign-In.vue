@@ -46,7 +46,7 @@
 				</a-form>
 				<!-- / Sign In Form -->
 
-				<p class="font-semibold text-muted">계정이 없으신가요? <router-link to="/sign-in" class="font-bold text-dark">회원 가입</router-link></p>
+				<p class="font-semibold text-muted">계정이 없으신가요? <router-link to="/sign-up" class="font-bold text-dark">회원 가입</router-link></p>
 			</a-col>
 			<!-- / Sign In Form Column -->
 
