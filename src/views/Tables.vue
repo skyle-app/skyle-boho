@@ -86,7 +86,7 @@
 				let form = new FormData()
 				form.append('token', $cookies.get('token'))
 
-				axios.post('http://192.168.0.13:4000/api/v1/get_child', form)
+				axios.post('https://api.skyle.kr/api/v1/get_child', form)
 				.then(function(response) {
 					console.log(response);
 					console.log(response.data);

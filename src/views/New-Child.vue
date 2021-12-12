@@ -137,7 +137,7 @@
 						form.append('birth',values.birth)
 						form.append('token',$cookies.get('token'))
 
-						axios.post('http://192.168.0.13:4000/api/v1/add_user', form)
+						axios.post('https://api.skyle.kr/api/v1/add_user', form)
 						.then(function(response) {
 							console.log(response);
 							console.log(response.data);

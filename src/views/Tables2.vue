@@ -27,7 +27,7 @@
 								</a-col>
 							</a-row>
 						</template>
-						<iframe id="maps" :src="'http://allpgs.iptime.org:4000/api/v1/load_maps?id=' + $route.params.id" frameborder="0"></iframe>
+						<iframe id="maps" :src="'https://api.skyle.kr/api/v1/load_maps?id=' + $route.params.id" frameborder="0"></iframe>
 					</a-card>
 				</a-col>
 			</a-row>

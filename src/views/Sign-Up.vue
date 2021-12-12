@@ -160,7 +160,7 @@
 						form.append('birth',values.birth)
 						form.append('email',values.email)
 
-						axios.post('http://192.168.0.13:4000/api/v1/signup', form)
+						axios.post('https://api.skyle.kr/api/v1/signup', form)
 						.then(function(response) {
 							console.log(response);
 							console.log(response.data);
